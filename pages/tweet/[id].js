@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable react-hooks/rules-of-hooks */
 /* eslint-disable jsx-a11y/alt-text */
 
@@ -8,6 +9,7 @@ import download from 'downloadjs'
 import * as htmlToImage from 'html-to-image';
 import { useRouter } from 'next/router'
 import Head from 'next/head'
+import { useEffect } from 'react';
 
 
 
@@ -74,16 +76,24 @@ export function htmlImage(props) {
         download(dataUrl, `Tweet_${username}_${data.id}_${timeStamp}.png`)})
 
     router.back()
+
   }
 
 
-  if (typeof window !== "undefined") {
+  // if (typeof window == "object") {
+  //   // window.onload = downloadImage
+  //   window.addEventListener("load", downloadImage)
+  // }
+
+  useEffect(() => {
     window.onload = downloadImage
-  }
+  }, [])
+
 
   return(<>
 
   <Head>
+    <title>Kutip Tweet | Zakiego</title>
     <link rel="stylesheet" href="https://pagecdn.io/lib/font-awesome/5.10.0-11/css/all.min.css" integrity="sha256-p9TTWD+813MlLaxMXMbTA7wN/ArzGyW/L7c5+KkjOkM=" crossOrigin="anonymous"></link>
   </Head>
   
