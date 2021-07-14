@@ -29,7 +29,7 @@ export default function Home() {
       document.getElementById("alert").innerHTML = 'Masukkan link yang benar'
     } else (
       document.getElementById("unduh").innerHTML =
-      `<form method="get" action='http://kutip.vercel.app/tweet/${statusId}'} value=""></div>` +
+      `<form method="get" action='https://kutip.vercel.app/tweet/${statusId}'} value=""></div>` +
       `<button class="inline-flex outline-none  items-center text transform hover:scale-105 m-auto px-8 py-2 text-base font-semibold rounded-lg text-snow-storm bg-gradient-to-r from-frost-bold to-frost-normal"> ` +       
                         `<svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>` +
                         `<a >Unduh</a>` +

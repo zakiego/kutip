@@ -75,7 +75,7 @@ export function htmlImage(props) {
       .then(function (dataUrl) {
         download(dataUrl, `Tweet_${username}_${data.id}_${timeStamp}.png`)})
 
-    router.back()
+    router.push('/')
 
   }
 
