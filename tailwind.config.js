@@ -9,6 +9,12 @@ module.exports = {
     extend: {
        colors: {
          'white-blue' : '#F9FAFE',
+         'polar-night-bold' : '#2E3440',
+         'polar-night-normal' : '#3B4252',
+         'frost-bold' : '#5E81AC',
+         'frost-normal' : '#88C0D0',
+         'snow-storm' : '#ECEFF4',
+         'low' : '#D8DEE9'
        },
         dropShadow: {
           '3xl': '0 4px 4px rgba(12, 144, 176, 0.20)'
