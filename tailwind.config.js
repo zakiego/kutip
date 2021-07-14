@@ -14,7 +14,9 @@ module.exports = {
          'frost-bold' : '#5E81AC',
          'frost-normal' : '#88C0D0',
          'snow-storm' : '#ECEFF4',
-         'low' : '#D8DEE9'
+         'low' : '#D8DEE9',
+         'aurora-orange' : '#D08770',
+         'aurora-yellow' : '#EBCB8B'
        },
         dropShadow: {
           '3xl': '0 4px 4px rgba(12, 144, 176, 0.20)'
