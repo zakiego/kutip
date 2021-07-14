@@ -142,8 +142,8 @@ export function htmlImage(props) {
 
 
                       <div className="pl-6 pt-2 relative font-twitter text-2xl">
-                          <p className="font-semibold text-black"> {name} </p>
-                          <p className="pt-1 text-twitter-username"> {'@' + username} </p>
+                          <p className="whitespace-nowrap font-semibold text-black"> {name} </p>
+                          <p className="whitespace-nowrap pt-1 text-twitter-username"> {'@' + username} </p>
                       </div>
 
                   </div>
