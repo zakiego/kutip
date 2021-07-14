@@ -86,7 +86,7 @@ export function htmlImage(props) {
   // }
 
   useEffect(() => {
-    window.onload = downloadImage
+    // window.onload = downloadImage
     window.addEventListener("load", downloadImage)
   }, [])
 
