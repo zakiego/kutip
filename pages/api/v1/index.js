@@ -46,7 +46,7 @@ export default async function  handler(req, res, props)  {
             user
         }
     })
-    const fake = {"data":{"text":"Banyak masalah yang akarnya bukan nggak mau, tapi cuman nggak tau aja cara memulainya. 😔","lang":"in","author_id":"2833803318","id":"1413400435986030599"},"includes":{"users":[{"name":"Zaki","id":"2833803318","profile_image_url":"https://pbs.twimg.com/profile_images/1355549876092686340/pV5yHS49_normal.jpg","username":"prasastipagi","created_at":"2014-09-27T09:25:23.000Z"}]}}
+    // const fake = {"data":{"text":"Banyak masalah yang akarnya bukan nggak mau, tapi cuman nggak tau aja cara memulainya. 😔","lang":"in","author_id":"2833803318","id":"1413400435986030599"},"includes":{"users":[{"name":"Zaki","id":"2833803318","profile_image_url":"https://pbs.twimg.com/profile_images/1355549876092686340/pV5yHS49_normal.jpg","username":"prasastipagi","created_at":"2014-09-27T09:25:23.000Z"}]}}
 
     // const fake = {
     //     data: {
